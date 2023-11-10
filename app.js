@@ -23,6 +23,6 @@ const reset = () => {
 const addOne = () => {
   const newSquare = document.createElement("div");
   newSquare.className = "newSquare";
-  //console.log(newSquare)
-  $('body').append(newSquare)
+  console.log(newSquare)
+  $('.frame').append(newSquare)
 }

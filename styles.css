@@ -1,22 +1,38 @@
-/*#square {
+button {
+  margin: .5em;
+}
+
+#square {
   width: 200px;
   height: 200px;
   background-color: red;
-}*/
-body {
+}
+
+.frame {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 100%;
 }
 
-div {
+.squareclass, .newSquare {
   margin: .5em;
   width: 200px;
   height: 200px;
   background-color: red;
 }
 
-button {
+/*body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+}*/
+
+/*div {
   margin: .5em;
-}
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}*/
+
