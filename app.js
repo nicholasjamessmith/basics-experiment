@@ -23,6 +23,9 @@ const reset = () => {
 const addOne = () => {
   const newSquare = document.createElement("div");
   newSquare.className = "newSquare";
+  //newSquare.id = 'square';
   console.log(newSquare)
   $('.frame').append(newSquare)
 }
+
+// Progress report: App working, code clean enough. Next goal(s): *make it so that the 'Click Here' button turns new squares blue as well *write a new function that doe something cool that the user can see
