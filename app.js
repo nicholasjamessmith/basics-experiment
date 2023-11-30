@@ -2,7 +2,7 @@
 
 //Each function below was custom written unless otherwise noted.
 
-//First I created the visual form/s I wanted to manipulate [see 'index.html', 'styles.css'] and then, thinking through how I wanted to manipulate them, googling/researching necessary syntaxes to perform microfunction, and through trial and error
+//First I created the visual elements I wanted to manipulate [see 'index.html', 'styles.css'] and then, thinking through how I wanted to manipulate them, googling/researching necessary syntaxes to perform microfunction, and through trial and error
 
 // 'clickHere' changes the initial square from red to blue in the browser window. [JavaScript + jQuery]
 const clickHere = () => {
@@ -24,8 +24,12 @@ const addOne = () => {
   const newSquare = document.createElement("div");
   newSquare.className = "newSquare";
   //newSquare.id = 'square';
-  console.log(newSquare)
+  //console.log(newSquare)
   $('.frame').append(newSquare)
 }
+
+const arr = [0, 1, 2, 3, "four", false, true, 7, 8, 9, 10.0]
+console.log(arr)
+console.log(arr[5])
 
 // Progress report: App working, code clean enough. Next goal(s): *make it so that the 'Click Here' button turns new squares blue as well *write a new function that doe something cool that the user can see
