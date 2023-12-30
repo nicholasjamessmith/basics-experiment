@@ -28,8 +28,8 @@ const addOne = () => {
   $('.frame').append(newSquare)
 }
 
-const arr = [0, 1, 2, 3, "four", false, true, 7, 8, 9, 10.0]
-console.log(arr)
-console.log(arr[5])
+//const arr = [0, 1, 2, 3, "four", false, true, 7, 8, 9, 10.0]
+//console.log(arr)
+//console.log(arr[5])
 
 // Progress report: App working, code clean enough. Next goal(s): *make it so that the 'Click Here' button turns new squares blue as well *write a new function that doe something cool that the user can see
